@@ -39,7 +39,7 @@
       <profile>
         <id>windows</id>
         <activation>
-          <os><name>windows</name></os>
+          <os><family>windows</family></os>
         </activation>
         <modules>
           <module>win-i686</module>
@@ -50,7 +50,7 @@
         <id>osx</id>
         <activation>
           <os>
-            <name>osx</name>
+            <family>mac</family>
             <arch>x86_64</arch>
           </os>
         </activation>

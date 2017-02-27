@@ -64,13 +64,19 @@
       <profile>
 	<id>aarch64-profile</id>
 	<activation>
-	  <os><arch>aarch64</arch></os>
+          <os>
+            <name>linux</name>
+            <arch>aarch64</arch>
+          </os>
 	</activation>
       </profile>
       <profile>
 	<id>ppc64le-profile</id>
 	<activation>
-	  <os><arch>ppc64le</arch></os>
+	  <os>
+            <name>linux</name>
+            <arch>ppc64le</arch>
+          </os>
 	</activation>
       </profile>
       <profile>
@@ -79,15 +85,15 @@
       <profile>
         <id>windows</id>
         <activation>
-          <os><name>windows</name></os>
+          <os><family>windows</family></os>
         </activation>
       </profile>
       <profile>
         <id>osx</id>
         <activation>
           <os>
-            <name>osx</name>
-            <arch>amd64</arch>
+            <family>mac</family>
+            <arch>x86_64</arch>
           </os>
         </activation>
       </profile>
@@ -131,6 +137,7 @@
         <module>legacy</module>
         <module>native_ref</module>
         <module>native_system</module>
+        <module>all</module>
     </modules>
 
     <properties>

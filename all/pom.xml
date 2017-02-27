@@ -8,6 +8,7 @@
         <groupId>com.github.fommil.netlib</groupId>
         <artifactId>parent</artifactId>
         <version>1.2-SNAPSHOT</version>
+        <relativePath>..</relativePath>
     </parent>
 
     <artifactId>all</artifactId>
